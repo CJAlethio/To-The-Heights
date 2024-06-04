@@ -3,11 +3,11 @@
 /* CSS Variables */
 :root {
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main: #FD027A;
     /* audio controls background */
-    --plyr-audio-controls-background: black;
+    --plyr-audio-controls-background: #194862;
     /* audio controls color */
-    --plyr-audio-control-color: white;
+    --plyr-audio-control-color: #E0CFC5;
     /* font family for player */
     --titlefont : "sansita", serif;
     --bodyfont: "oswald", sans-serif;
@@ -17,9 +17,9 @@
     /* Other optional customiziations */
     --plyr-audio-control-color-hover:  black;
     --plyr-audio-progress-buffered-background:  black;
-    --plyr-audio-range-track-background: white;
+    --plyr-audio-range-track-background: #7F1411;
     --plyr-tooltip-background: white;
-    --plyr-tooltip-color: black; 
+    --plyr-tooltip-color: white; 
     --plyr-control-icon-size: 16px;
 }
 
@@ -50,9 +50,7 @@ article {
     gap: 1em;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
     font-family: var(--bodyfont);
-
     margin: 5% 13%;
 }
 
