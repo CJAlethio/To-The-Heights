@@ -42,9 +42,13 @@ main img {
 /* Primary Content */
 article {
     /* flow content horizontally */
+    text-align: center;
     display: flex;
     gap: 1em;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    margin: 5% 13%;
 }
 
 article section {
