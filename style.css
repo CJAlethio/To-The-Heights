@@ -48,8 +48,14 @@ article {
     justify-content: space-evenly;
     flex-wrap: wrap;
     
+    align-items: center;
+
     margin: 5% 13%;
 }
+
+.center {
+    margin: 0% 25%;
+  }
 
 article section {
     /* keep flex'd child same width */
