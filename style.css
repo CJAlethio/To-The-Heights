@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
 /* CSS Variables */
 :root {
     /* main UI color */
@@ -7,7 +9,8 @@
     /* audio controls color */
     --plyr-audio-control-color: white;
     /* font family for player */
-    --plyr-font-family: sans-serif;
+    --titlefont : "sansita", serif;
+    --bodyfont: "oswald", sans-serif;
     /* font size of player  */
     --plyr-font-size-time: 16px;
 
@@ -48,8 +51,19 @@ article {
     justify-content: space-evenly;
     flex-wrap: wrap;
 
+    font-family: var(--bodyfont);
+
     margin: 5% 13%;
 }
+
+h1 {
+    font-family: var(--titlefont);
+}
+
+h2 {
+    font-family: var(--titlefont);
+    margin-left: 2%;
+    }
 
 .center {
     margin: 0% 25%;
