@@ -17,14 +17,14 @@
     /* Other optional customiziations */
     --plyr-audio-control-color-hover:  black;
     --plyr-audio-progress-buffered-background:  black;
-    --plyr-audio-range-track-background: #7F1411;
+    --plyr-audio-range-track-background: #ffe600;
     --plyr-tooltip-background: white;
     --plyr-tooltip-color: white; 
     --plyr-control-icon-size: 16px;
 }
 
 body {
-    background: gray;
+    background: #07063F;
 }
 
 /* Layout */
@@ -33,7 +33,8 @@ main {
     max-width: 60em;
     margin-inline: auto;
 
-    background: lightgray;
+    background: rgb(127,20,17);
+    background: linear-gradient(0deg, rgba(127,20,17,1) 0%, rgba(255,0,0,1) 24%, rgba(255,134,0,1) 58%, rgba(247,255,0,1) 92%);
 }
 
 main img {
